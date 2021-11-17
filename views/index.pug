@@ -1,0 +1,8 @@
+html
+  head
+    title= title
+  body
+    form(method="POST", action="/upload", enctype="multipart/form-data")
+      input(type="file", name="file")
+      button(type="submit") Submit
+
